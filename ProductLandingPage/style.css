@@ -34,7 +34,7 @@ a{
     background-image: url('hero-section.jpeg');
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height:400;
     display: flex;
     justify-content: flex-start;
 }
@@ -80,6 +80,13 @@ a{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 20%;
     text-align: center;
+    box-sizing: border-box;
+}
+.features-card img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 /* Testimonials Section */
 #testimonials{
